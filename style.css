@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    
+}
+
+main {
+    
+}
+
+footer {
+    bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-top: solid 1px;
+}
+
+footer > * > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > * > a:hover {
+    text-decoration: underline;
+}
+
+nav {
+
+}
+
+nav ul {
+    display: table;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    list-style-type: none;
+    border-bottom: solid 1px;
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Georgia, serif;
+}
+
+p {
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody {
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #ddd !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: solid 1px;
+    padding: 8px;
+}
+
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+code {
+    font-family: Consolas, monospace;
+    background-color: #eee;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+pre {
+    text-align: initial;
+    border: solid 1px;
+    background-color: #eee;
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+}
+
+samp {
+    font-family: Consolas, monospace;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.row {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        flex-direction: column;
+    }
+}
+
+div.column > div {
+    min-width: 300px;
+    flex: 1;
+}
+
+.hebrew {
+    font-size: 17px;
+    direction: rtl;
+}
+
+.hebrew-classic {
+    font-family: serif;
+    font-size: 19px;
+    direction: rtl;
+}
